@@ -3,7 +3,7 @@
 
 > **⚠️ Requisito obrigatório:**  
 > Este projeto exige a versão do **Python 3.10.9**. Certifique-se de que ela está instalada antes de continuar.
-
+> 
 > Este projeto exige a versão do **Node 22.17.X (última versão estável)**. Certifique-se de que ela está instalada antes de continuar.
 > 
 > **💡 Observação:**  
