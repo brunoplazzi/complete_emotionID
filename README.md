@@ -33,8 +33,9 @@
    - Iniciar o frontend.
    - Abrir automaticamente o navegador com o sistema rodando em `http://localhost:5173`.
 
-> Após a execução, o projeto estará funcionando localmente e pronto para uso. 🎉
+4. Após a execução, o projeto estará funcionando localmente e pronto para uso. 🎉
 
+> ⚠️ **Se o navegador não abrir automaticamente**, acesse manualmente: [http://localhost:5173](http://localhost:5173)
 ---
 
 ### ✅ Opção 2: Instalação manual (passo a passo)
