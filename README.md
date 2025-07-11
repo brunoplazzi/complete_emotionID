@@ -12,7 +12,7 @@
 ## 📦 Como instalar o projeto
 
 
-### ✅ Opção 1: Instalação automática com script
+### ✅ Opção 1: Instalação automática com script (Recomendada)
 
 1. **Baixe o projeto** para seu computador (clonando via Git ou baixando como `.zip` e extraindo).
 2. **Execute o script `setup.bat`** localizado na raiz do projeto:
@@ -35,6 +35,69 @@
 
 ---
 
-### 🧩 Opção 2: Instalação manual (passo a passo)
+### ✅ Opção 2: Instalação manual (passo a passo)
 
-//em construção...
+---
+
+#### 🔙 Backend
+
+1. Acesse a pasta `backend`:
+   ```cmd
+   cd backend
+   ```
+
+2. **Crie o ambiente virtual** (caso ainda não exista):
+   ```cmd
+   python -m venv venv
+   ```
+
+3. **Ative o ambiente virtual**:
+   ```cmd
+   venv\Scripts\activate
+   ```
+
+4. **Instale as dependências**:
+   ```cmd
+   pip install -r requirements.txt
+   ```
+
+5. **Inicie o servidor backend**:
+   ```cmd
+   uvicorn app.main:app --reload
+   ```
+
+> O backend estará rodando em `http://127.0.0.1:8000`.
+
+---
+
+#### 🔜 Frontend
+
+1. Em outro terminal, volte à raiz do projeto (caso ainda esteja em `backend`) e acesse a pasta `frontend`:
+   ```cmd
+   cd ../frontend
+   ```
+
+2. **Instale as dependências** (caso ainda não existam):
+   ```cmd
+   npm install
+   ```
+
+3. **Inicie o servidor de desenvolvimento**:
+   ```cmd
+   npm run dev
+   ```
+
+> O frontend será iniciado em `http://localhost:5173`.
+
+---
+
+### 🌐 Acessando o sistema
+
+Com ambos os servidores (backend e frontend) em execução, abra seu navegador e acesse:
+
+```
+http://localhost:5173
+```
+
+O sistema estará disponível para uso!
+
